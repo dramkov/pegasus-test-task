@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #d0aa8c;
+  --color-primary-dark: #bb7a48;
+}
+
+$bp-largest: 75em; //1200px
+$bp-large: 68.75rem; //1100px
+$bp-medium: 56.25rem; //900px
+$bp-small: 41.75em; // 668px
+$bp-smallest: 31.25em; // 500px
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: 'Romul';
+  src: local('./fonts/Romul font.ttf'),
+    url('./fonts/Romul font.ttf') format('opentype');
+}
